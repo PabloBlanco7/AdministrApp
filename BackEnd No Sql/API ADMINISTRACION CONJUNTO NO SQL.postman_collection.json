@@ -107,7 +107,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"1014\",\r\n    \"nombre\":\"Apartamento modelo\",\r\n    \"estado\":1,\r\n    \"descripcion\":\"Apartamento 92m^2\"\r\n}",
+							"raw": "{\r\n    \"codigo\":\"0003\",\r\n    \"nombre\":\"Casa Grande\",\r\n    \"estado\":1,\r\n    \"descripcion\":\"Casa Rio\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -115,7 +115,7 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:9000/api/estate/propertyType/1",
+							"raw": "localhost:9000/api/estate/propertyType/63924bac20c15428815fe19c",
 							"host": [
 								"localhost"
 							],
@@ -124,7 +124,7 @@
 								"api",
 								"estate",
 								"propertyType",
-								"1"
+								"63924bac20c15428815fe19c"
 							]
 						}
 					},
@@ -204,7 +204,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"8025\",\r\n    \"nombre\":\"Casa Grande\",\r\n    \"estado\":1,\r\n    \"descripcion\":\"Casa Rio\"\r\n}",
+							"raw": "{\r\n    \"codigo\":\"8025\",\r\n    \"descripcion\":\"Casa Rio\",\r\n    \"estado\":1,\r\n    \"inmuebleId\":{\r\n        \"id\":\"\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -330,7 +330,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"8025\",\r\n    \"nombre\":\"Casa Grande\",\r\n    \"estado\":1,\r\n    \"descripcion\":\"Casa Rio\"\r\n}",
+							"raw": "{\r\n    \"codigo\":\"0101\",\r\n    \"nombre\":\"Bucaramanga\",\r\n    \"estado\":1,\r\n    \"departamentoId\":{\r\n        \"id\":\"\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -359,7 +359,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"1014\",\r\n    \"nombre\":\"Apartamento modelo\",\r\n    \"estado\":1,\r\n    \"descripcion\":\"Apartamento 92m^2\"\r\n}",
+							"raw": "{\r\n    \"codigo\":\"0102\",\r\n    \"nombre\":\"Bucaramanga\",\r\n    \"estado\":1,\r\n    \"departamentoId\":{\r\n        \"id\":\"\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -456,7 +456,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"estado\":1,\r\n    \"valorMes\":320000,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -485,7 +485,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Alquiler\",\r\n    \"estado\":1,\r\n    \"valorMes\":320000,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -582,7 +582,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"direccion\":\"calle 33 # 15-70\",\r\n    \"telefono\":\"3166160042\",\r\n    \"correo\":\"blancogpabloe@hotmail.com\",\r\n    \"estado\":1,\r\n    \"ciudadId\":{\r\n        \"id\":2\r\n    },\r\n    \"usuarioAdministradorId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -611,7 +611,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Pablo Emilio Blanco Garzón\",\r\n    \"direccion\":\"calle 33 # 15-70\",\r\n    \"telefono\":\"3166160042\",\r\n    \"correo\":\"blancogpabloe@hotmail.com\",\r\n    \"estado\":1,\r\n    \"ciudadId\":{\r\n        \"id\":2\r\n    },\r\n    \"usuarioAdministradorId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -708,7 +708,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -737,7 +737,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"codigo\":\"02\",\r\n    \"nombre\":\"Santander\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -834,7 +834,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"matriculaInmobiliaria\":\"01\",\r\n    \"estado\":1,\r\n    \"usuarioDuenioId\":{\r\n        \"id\":2\r\n    },\r\n    \"ciudadId\":{\r\n        \"id\":2\r\n    },\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -863,7 +863,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"matriculaInmobiliaria\":\"01\",\r\n    \"estado\":1,\r\n    \"usuarioDuenioId\":{\r\n        \"id\":2\r\n    },\r\n    \"ciudadId\":{\r\n        \"id\":2\r\n    },\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -960,7 +960,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"nombre\":\"Administracion\",\r\n    \"descripcion\":\"01\",\r\n    \"estado\":1,\r\n    \"ruta\":\"../view/vendedor\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -989,7 +989,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"nombre\":\"Pablo emilio\",\r\n    \"descripcion\":\"vendedor\",\r\n    \"estado\":1,\r\n    \"ruta\":\"../view/vendedor\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1086,7 +1086,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"permisoId\":{\r\n        \"id\":2\r\n    },\r\n    \"rolId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1115,7 +1115,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"permisoId\":{\r\n        \"id\":2\r\n    },\r\n    \"rolId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1212,7 +1212,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"tipoDocumento\":\"01\",\r\n    \"documento\":\"Administracion\",\r\n    \"nombreCompleto\":\"\",\r\n    \"telefono\":\"\",\r\n    \"correo\":\"\",\r\n    \"fechaNacimiento\":\"\",\r\n    \"direccion\":\"\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1241,7 +1241,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"tipoDocumento\":\"CC\",\r\n    \"documento\":\"1093485652\",\r\n    \"nombreCompleto\":\"Pablo Emilio Blanco Garzón\",\r\n    \"telefono\":\"6076071717\",\r\n    \"correo\":\"blancogpabloe@hotmail.com\",\r\n    \"fechaNacimiento\":\"10/01/1992\",\r\n    \"direccion\":\"calle 33 #15-70\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1338,7 +1338,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"nombre\":\"Administracion\",\r\n    \"descripcion\":\"\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1367,7 +1367,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"nombre\":\"Administracion\",\r\n    \"descripcion\":\"\",\r\n    \"estado\":1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1464,7 +1464,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"01\",\r\n    \"nombre\":\"Administracion\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":2\r\n    }\r\n}",
+							"raw": "{\r\n    \"usuario\":\"01\",\r\n    \"contrasenia\":\"Administracion\",\r\n    \"estado\":1,\r\n    \"personaId\":{\r\n        \"id\":2\r\n    },\r\n    \"RolId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1493,7 +1493,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\":\"121\",\r\n    \"nombre\":\"Administracion Pago\",\r\n    \"valorMes\":320000,\r\n    \"estado\":1,\r\n    \"tipoInmuebleId\":{\r\n        \"id\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"usuario\":\"01\",\r\n    \"contrasenia\":\"Administracion\",\r\n    \"estado\":1,\r\n    \"personaId\":{\r\n        \"id\":2\r\n    },\r\n    \"RolId\":{\r\n        \"id\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
